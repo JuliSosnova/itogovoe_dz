@@ -1,3 +1,4 @@
+/**задание 1 вариант 1 форматы файлов 3*/
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
