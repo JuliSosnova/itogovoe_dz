@@ -1,0 +1,17 @@
+[
+  {
+    "sellerId": 1,
+    "lastName": "Stupapupin",
+    "firstName": "Ivan"
+  },
+  {
+    "sellerId": 2,
+    "lastName": "Sinusoid",
+    "firstName": "Vladimir"
+  },
+  {
+    "sellerId": 3,
+    "lastName": "Beloruchka",
+    "firstName": "Anna"
+  }
+]

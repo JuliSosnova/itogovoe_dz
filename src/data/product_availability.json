@@ -1,0 +1,20 @@
+[
+  {
+    "sellerId": 1,
+    "productId": 2,
+    "price": 1.99,
+    "available": 6
+  },
+  {
+    "sellerId": 2,
+    "productId": 3,
+    "price": 154,
+    "available": 1
+  },
+  {
+    "sellerId": 3,
+    "productId": 1,
+    "price": 56.99,
+    "available": 1
+  }
+]
