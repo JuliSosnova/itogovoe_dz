@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 import model.Products;
 import model.Avilability;
 import model.Sellers;
+import model.Sales;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -29,6 +30,11 @@ public class JsonReader {
     public Sellers[] readSellers(String filename) throws IOException {
         String json = Files.readString(Paths.get(filename));
         Sellers[] s = gson.fromJson(json, Sellers[].class);
+        return s;
+    }
+    public Sales[] readSales(String filename) throws IOException {
+        String json = Files.readString(Paths.get(filename));
+        Sales[] s = gson.fromJson(json, Sales[].class);
         return s;
     }
 }
