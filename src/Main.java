@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 import model.Avilability;
 import model.Products;
 import model.Sellers;
-
+/**Для каждого товара вывести в файл продавца, у которого наименьшая цена на этот товар, и саму цену на этот товар у этого продавца*/
 public class Main {
     public static void main(String[] args) throws IOException {
         JsonReader dataReader = new JsonReader();
